@@ -31,27 +31,12 @@ sudo systemctl start tor
 curl --socks5-hostname 127.0.0.1:9050 https://check.torproject.org/api/ip
 ```
 
-### Dépendances Python
-
-```bash
-pip install aiohttp aiohttp-socks selectolax
-```
-
----
-
 ## Installation
 
 ```bash
 git clone <repo>
 cd tor-crawler
 pip install -r requirements.txt
-```
-
-**requirements.txt**
-```
-aiohttp
-aiohttp-socks
-selectolax
 ```
 
 ---
